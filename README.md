@@ -1,3 +1,1 @@
-# freelings
-
-==This is the DEMO branch.
+# freelings - DEMO branch.
