@@ -1,1 +1,1 @@
-# freelings - DEMO branch.
+# freelings - BLOG branch.
