@@ -1,3 +1,1 @@
-# freelings
-
-==This is the BLOG branch.
+# freelings - BLOG branch.
