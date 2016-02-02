@@ -1,3 +1,3 @@
 # freelings
 
-==This is the DEMO branch.
+==This is the BLOG branch.
