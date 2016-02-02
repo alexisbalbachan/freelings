@@ -7,7 +7,7 @@ if [ "$DIRECTORIO" != "/home/natural_demo/pruebas_git/freelings" ]; then
   exit
 fi
 
-echo "[$(date)] - Copiando archivos desde la instancia de freeling del DEMO..."
+echo "[$(date)] - Copiando archivos desde la instancia de freeling del BLOG..."
 
 rsync -av --progress /srv/chroot/squeeze/usr/local/share/freeling/* . --exclude .git 2>&1 | tee -a rsync.log
 
