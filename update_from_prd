@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DIRECTORIO=`pwd`
+
+if [ "$DIRECTORIO" != "/home/natural_demo/pruebas_git/freelings" ]; then
+  echo "El directorio $DIRECTORIO no es válido. Imposible continuar."
+  exit
+fi
+
+echo "[$(date)] - Copiando archivos desde la instancia de freeling del DEMO..."
+
+rsync -av --progress /srv/demo-dev-chroot/squeeze/usr/local/share/freeling/* . --exclude .git 2>&1 | tee -a rsync.log
+
+echo "[$(date)] - ...listo."
+
+
