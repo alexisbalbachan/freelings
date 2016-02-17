@@ -924,7 +924,7 @@ inf ==>VMN0000(tardar), SPS00(a), +infinitiu.
 inf ==>VMN0000(tardar), SPS00(em), +infinitiu.
 inf ==>VMN0000(demorar), SPS00(a), +infinitiu.
 inf ==>VMN0000(demorar), SPS00(em), +infinitiu.
-inf ==>VAN0000(haver), SPS00(de), +infinitiu.
+inf ==>VMN0000(haver), SPS00(de), +infinitiu.
 inf ==>VMN0000(custar), SPS00(a), +infinitiu.
 
 %afegides el 26-03-03
@@ -1027,8 +1027,8 @@ verb ==> VMI*<começar>, SPS00(a), +infinitiu | VMS*<começar>, SPS00(a), +infin
 verb ==> VMI*<voltar>, SPS00(a), +infinitiu | VMS*<voltar>, SPS00(a), +infinitiu.
 verb ==> VMI*<tornar>, SPS00(a), +infinitiu | VMS*<tornar>, SPS00(a), +infinitiu.
 verb ==> VMI*<costumar>, +infinitiu | VMS*<costumar>, +infinitiu.
-verb ==> VAI*<estar>, SPS00(a_ponto_de), +infinitiu | VAS*<estar>, SPS00(a_ponto_de), +infinitiu.
-verb ==> VAI*<estar>, SPS00(prestes_a), +infinitiu | VAS*<estar>, SPS00(prestes_a), +infinitiu.
+verb ==> VMI*<estar>, SPS00(a_ponto_de), +infinitiu | VMS*<estar>, SPS00(a_ponto_de), +infinitiu.
+verb ==> VMI*<estar>, SPS00(prestes_a), +infinitiu | VMS*<estar>, SPS00(prestes_a), +infinitiu.
 verb ==> VMI*<acabar>, SPS00(de), +infinitiu | VMS*<acabar>, SPS00(de), +infinitiu.
 verb ==> VMI*<terminar>, SPS00(de), +infinitiu | VMS*<terminar>, SPS00(de), +infinitiu.
 verb ==> VMI*<deixar>, SPS00(de), +infinitiu | VMS*<deixar>, SPS00(de), +infinitiu.
@@ -1041,6 +1041,7 @@ verb ==> VMI*<demorar>, SPS00(em), +infinitiu | VMS*<demorar>, SPS00(em), +infin
 verb ==> VMI*<demorar>, SPS00(a), +infinitiu | VMS*<demorar>, SPS00(a), +infinitiu.
 verb ==> VMI*<haver>, SPS00(de), +infinitiu | VMS*<haver>, SPS00(de), +infinitiu.
 verb ==> VMI*<custar>, SPS00(a), +infinitiu | VMS*<custar>, SPS00(a), +infinitiu.
+
 verb ==> VMI*<acabar>, +gerundi | VMS*<acabar>, +gerundi.
 verb ==> VMI*<andar>, +gerundi | VMS*<andar>, +gerundi.
 verb ==> VMI*<comenzar>, +gerundi | VMS*<comenzar>, +gerundi.
