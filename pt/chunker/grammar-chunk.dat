@@ -1015,30 +1015,32 @@ ger ==> VMG0000(viniendo), +gerundi.
 ger ==> VMG0000(yendo), +parti-*.
 
 % perifrasis verbals indicatives i subjuntives
-verb ==> VMI*<intentar>, +infinitiu | VMS*<intentar>, +infinitiu.
-verb ==> VMI*<deber>, +infinitiu | VMS*<deber>, +infinitiu.
-verb ==> VMI*<deber>, SPS00(de), +infinitiu | VMS*<deber>, SPS00(de), +infinitiu.
-verb ==> VMI*<tratar>, +infinitiu | VMS*<tratar>, +infinitiu.
+verb ==> VMI*<tentar>, +infinitiu | VMS*<tentar>, +infinitiu.
+verb ==> VMI*<dever>, +infinitiu | VMS*<dever>, +infinitiu.
+verb ==> VMI*<dever>, SPS00(de), +infinitiu | VMS*<dever>, SPS00(de), +infinitiu.
 verb ==> VMI*<tratar>, SPS00(de), +infinitiu | VMS*<tratar>, SPS00(de), +infinitiu.
-verb ==> VMI*<tener>, CS(que), +infinitiu | VMS*<tener>, CS(que), +infinitiu.
+verb ==> VMI*<ter>, CS(que), +infinitiu | VMS*<ter>, CS(que), +infinitiu.
+verb ==> VMI*<ter>, SPS00(de), +infinitiu | VMS*<ter>, SPS00(de), +infinitiu.
 verb ==> VMI*<poder>, +infinitiu | VMS*<poder>, +infinitiu.
-verb ==> VMI*<ir>, SPS00(a), +infinitiu | VMS*<ir>, SPS00(a), +infinitiu.
-verb ==> VMI*<empezar>, SPS00(a), +infinitiu | VMS*<empezar>, SPS00(a), +infinitiu.
-verb ==> VMI*<comenzar>, SPS00(a), +infinitiu | VMS*<comenzar>, SPS00(a), +infinitiu.
-verb ==> VMI*<echar>, SPS00(a), +infinitiu | VMS*<echar>, SPS00(a), +infinitiu.
-verb ==> VMI*<echarse>, SPS00(a), +infinitiu | VMS*<echarse>, SPS00(a), +infinitiu.
-verb ==> VMI*<romper>, SPS00(a), +infinitiu | VMS*<romper>, SPS00(a), +infinitiu.
-verb ==> VMI*<volver>, SPS00(a), +infinitiu | VMS*<volver>, SPS00(a), +infinitiu.
-verb ==> VMI*<acostumbrar>, SPS00(a), +infinitiu | VMS*<acostumbrar>, SPS00(a), +infinitiu.
-verb ==> VAI*<estar>, SPS00(a_punto_de), +infinitiu | VAS*<estar>, SPS00(a_punto_de), +infinitiu.
-verb ==> VMI*<soler>, +infinitiu | VMS*<soler>, +infinitiu.
+verb ==> VMI*<ir>, +infinitiu | VMS*<ir>, +infinitiu.
+verb ==> VMI*<começar>, SPS00(a), +infinitiu | VMS*<começar>, SPS00(a), +infinitiu.
+verb ==> VMI*<voltar>, SPS00(a), +infinitiu | VMS*<voltar>, SPS00(a), +infinitiu.
+verb ==> VMI*<tornar>, SPS00(a), +infinitiu | VMS*<tornar>, SPS00(a), +infinitiu.
+verb ==> VMI*<costumar>, +infinitiu | VMS*<costumar>, +infinitiu.
+verb ==> VAI*<estar>, SPS00(a_ponto_de), +infinitiu | VAS*<estar>, SPS00(a_ponto_de), +infinitiu.
+verb ==> VAI*<estar>, SPS00(prestes_a), +infinitiu | VAS*<estar>, SPS00(prestes_a), +infinitiu.
 verb ==> VMI*<acabar>, SPS00(de), +infinitiu | VMS*<acabar>, SPS00(de), +infinitiu.
 verb ==> VMI*<terminar>, SPS00(de), +infinitiu | VMS*<terminar>, SPS00(de), +infinitiu.
-verb ==> VMI*<dejar>, SPS00(de), +infinitiu | VMS*<dejar>, SPS00(de), +infinitiu.
-verb ==> VMI*<llegar>, SPS00(a), +infinitiu | VMS*<llegar>, SPS00(a), +infinitiu.
-verb ==> VMI*<acertar>, SPS00(a), +infinitiu | VMS*<acertar>, SPS00(a), +infinitiu.
-verb ==> VMI*<alcanzar>, SPS00(a), +infinitiu | VMS*<alcanzar>, SPS00(a), +infinitiu.
-verb ==> VMI*<tardar>, SPS00(en), +infinitiu | VMS*<tardar>, SPS00(en), +infinitiu.
+verb ==> VMI*<deixar>, SPS00(de), +infinitiu | VMS*<deixar>, SPS00(de), +infinitiu.
+verb ==> VMI*<vir>, SPS00(a), +infinitiu | VMS*<vir>, SPS00(a), +infinitiu.
+verb ==> VMI*<chegar>, SPS00(a), +infinitiu | VMS*<chegar>, SPS00(a), +infinitiu.
+verb ==> VMI*<conseguir>, +infinitiu | VMS*<conseguir>, +infinitiu.
+verb ==> VMI*<tardar>, SPS00(em), +infinitiu | VMS*<tardar>, SPS00(em), +infinitiu.
+verb ==> VMI*<tardar>, SPS00(a), +infinitiu | VMS*<tardar>, SPS00(a), +infinitiu.
+verb ==> VMI*<demorar>, SPS00(em), +infinitiu | VMS*<demorar>, SPS00(em), +infinitiu.
+verb ==> VMI*<demorar>, SPS00(a), +infinitiu | VMS*<demorar>, SPS00(a), +infinitiu.
+verb ==> VMI*<haver>, SPS00(de), +infinitiu | VMS*<haver>, SPS00(de), +infinitiu.
+verb ==> VMI*<custar>, SPS00(a), +infinitiu | VMS*<custar>, SPS00(a), +infinitiu.
 verb ==> VMI*<acabar>, +gerundi | VMS*<acabar>, +gerundi.
 verb ==> VMI*<andar>, +gerundi | VMS*<andar>, +gerundi.
 verb ==> VMI*<comenzar>, +gerundi | VMS*<comenzar>, +gerundi.
@@ -1052,8 +1054,8 @@ verb ==> VMI*<terminar>, +gerundi | VMS*<terminar>, +gerundi.
 verb ==> VMI*<venir>, +gerundi | VMS*<venir>, +gerundi.
 verb ==> VMI*<ir>, +parti-* | VMS*<ir>, +parti-*.
 
-verb ==> VAI*<haber>, SPS00(de), +infinitiu | VAS*<haber>, SPS00(de), +infinitiu
-       | VAC*<haber>, SPS00(de), +infinitiu.
+verb ==> VAI*<haver>, SPS00(de), +infinitiu | VAS*<haver>, SPS00(de), +infinitiu
+       | VAC*<haver>, SPS00(de), +infinitiu.
 
 
 %%%%%%%%
