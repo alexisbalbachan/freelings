@@ -49,9 +49,18 @@ w-fp ==> NP*.
 
 %hace un mes / dos semanas, etc.
 sadv ==> +v-hacer-3p, sn-tmp.
-v-hacer-3p ==> VMIP3S0<hacer> | VMII3S0<hacer> | VMSP3S0<hacer>
-	     | VMIF3S0<hacer> | VMIC3S0<hacer> | VMSI3S0<hacer>
-	     | VMSF3S0<hacer> | VMIP3S0<hacer> | VMIS3S0<hacer>.
+v-hacer-3p ==> VMIP3S0<fazer> | VMII3S0<fazer> | VMSP3S0<fazer>
+	     | VMIF3S0<fazer> | VMIC3S0<fazer> | VMSI3S0<fazer>
+	     | VMSF3S0<fazer> | VMIP3S0<fazer> | VMIS3S0<fazer>.
+
+v-hacer-3p ==> VMIP3S0<haver> | VMII3S0<haver> | VMSP3S0<haver>
+	     | VMIF3S0<haver> | VMIC3S0<haver> | VMSI3S0<haver>
+	     | VMSF3S0<haver> | VMIP3S0<haver> | VMIS3S0<haver>.
+
+v-hacer-3p ==> VMIP3S0<ter> | VMII3S0<ter> | VMSP3S0<ter>
+	     | VMIF3S0<ter> | VMIC3S0<ter> | VMSI3S0<ter>
+	     | VMSF3S0<ter> | VMIP3S0<ter> | VMIS3S0<ter>.
+
 sn-tmp ==> quant-ms, s-a-ms, +nom-tmp | quant-ms, +nom-tmp | s-a-ms, +nom-tmp | nom-tmp
          | quant-fs, s-a-fs, +nom-tmp | quant-fs, +nom-tmp | s-a-fs, +nom-tmp
          | quant-mp, s-a-mp, +nom-tmp | quant-mp, +nom-tmp | s-a-mp, +nom-tmp | nom-tmp
