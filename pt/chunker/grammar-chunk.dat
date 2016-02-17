@@ -174,9 +174,9 @@ morf-pron ==> P03CN000.	%se-pronominal
 morfema-verbal ==> P00CN000.	%se impersonal/passiu
 grup-verb ==> morf-pron | patons, +verb.
 
-ptonic ==> PP1CSO00(mí).	%mí: cas oblic
+ptonic ==> PP1CSO00(mim).	%mí: cas oblic
 ptonic ==> PP2CSO00(ti).	%ti
-ptonic ==> PP3CNO00(sí).	%sí
+ptonic ==> PP3CNO00(si).	%sí
 
 grup-sp ==> PP1CSO00(conmigo).	%literal per distingir-lo de l'anterior
 grup-sp ==> PP2CSO00(contigo).
