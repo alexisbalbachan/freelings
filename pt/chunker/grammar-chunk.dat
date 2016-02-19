@@ -167,8 +167,8 @@ sn ==> +ptonic, DI0MP0(mismos)   | +ptonic, DI0FP0(mismas).
 
 %Pronoms atons
 patons ==> paton-s | paton-p | paton-mp | paton-fp | paton-ms | paton-fs | paton.
-patons ==> PP3CN000.	%se
-
+%patons ==> PP3CN000.	%se
+%La linea anterior fue comentada para privilegiar se impersonales como morfema verbal
 paton-s ==> PP1CS000 | PP2CS000 | PP3CSD00 | PP3CSA00 | PP3CND00.  % me | te | le | le (acusatiu) | se % Agregamos el tag del 'se' corregido en dicc.src
 paton-p ==> PP1CP000 | PP2CP000 | PP3CPD00 | PP3CPA00 | PP3CND00.  % nos | os | les | les (acusatiu) | se % Agregamos el tag del 'se' corregido en dicc.src
 paton-mp ==> PP3MPA00.	%los: ve així del tagger
@@ -180,7 +180,9 @@ paton ==> PP3CNA00.	%lo: atribut: inespecificat
 morf-pron ==> P010S000 | P010P000 | P020S000 | P020P000.
 morf-pron ==> P03CN000.	%se-pronominal
 
-morfema-verbal ==> P00CN000.	%se impersonal/passiu
+%morfema-verbal ==> P00CN000.	%se impersonal/passiu
+morfema-verbal ==> PP3CN000.	%se impersonal/passiu
+
 grup-verb ==> morf-pron | patons, +verb.
 
 ptonic ==> PP1CSO00(mim).	%mí: cas oblic
