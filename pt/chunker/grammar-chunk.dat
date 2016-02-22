@@ -232,14 +232,14 @@ pposs-fp ==> DA0FP0, +PX1FP0S0 | DA0FP0, +PX1FP0P0 | DA0FP0, +PX2FP0S0 |
              DA0FP0, +PX2FP0P0 | DA0FP0, +PX3FP0C0.
 
 %Pronoms relatius
-cuyo-ms ==> PR0MS000(cuyo).	%cuyo
-cuyo-fs ==> PR0FS000(cuya).	%cuya
-cuyo-mp ==> PR0MP000(cuyos).	%cuyos
-cuyo-fp ==> PR0FP000(cuyas).	%cuyas
-cual-s ==> PR0CS000(cual).
-cual-p ==> PR0CP000(cuales).
-quien-s ==> PR0CS000(quien).
-quien-p ==> PR0CP000(quienes).
+cuyo-ms ==> PR0MS000(cujo).	%cuyo
+cuyo-fs ==> PR0FS000(cuja).	%cuya
+cuyo-mp ==> PR0MP000(cujos).	%cuyos
+cuyo-fp ==> PR0FP000(cujas).	%cuyas
+cual-s ==> PR0CS000(qual).
+cual-p ==> PR0CP000(quais).
+quien-s ==> PR0CN000(quem).
+quien-p ==> PR0CN000(quem).
 prel ==> PR0CN000.	%que
 
 
@@ -251,10 +251,10 @@ subord-rel ==> prel, +verb-pass. %el caso de Leandro comió la manzana que fue d
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-prel-ms ==> PR0MS000(cuanto).	%cuanto
-prel-mp ==> PR0MP000(cuantos).	%cuantos
-prel-fs ==> PR0FS000(cuanta).	%cuanta
-prel-fp ==> PR0FP000(cuantas).	%cuantas
+prel-ms ==> PR0MS000(quanto).	%cuanto
+prel-mp ==> PR0MP000(quantos).	%cuantos
+prel-fs ==> PR0FS000(quanta).	%cuanta
+prel-fp ==> PR0FP000(quantas).	%cuantas
 
 %Pronoms relatius de lloc
 prel-adv ==> PR000000.	%donde, como, cuando
