@@ -1,3 +1,22 @@
+depois_de_que depois_de_que CS
+Depois_de_que depois_de_que CS
+depois_que depois_que CS
+Depois_que depois_que CS
+em_caso_que em_caso_que CS
+Em_caso_que em_caso_que CS
+antes_que antes_que CS
+Antes_que antes_que CS
+antes_de_que antes_de_que CS
+Antes_de_que antes_de_que CS
+contanto_que contanto_que CS
+Contanto_que contanto_que CS
+ao_mesmo_tempo_que ao_mesmo_tempo_que CS
+Ao_mesmo_tempo_que ao_mesmo_tempo_que CS
+<abafar>_o_caso abafar_o_caso $1:VM I
+<achar>_pelo_em_ovo achar_pelo_em_ovo $1:VM I
+<bater>_as_botas bater_as_botas $1:VM I
+<botar>_banca botar_banca $1:VM I
+<engolir>_sapo engolir_sapo $1:VM I
 <ter>_que dever $1:VM
 <ter>_de dever $1:VM
 <haver>_de dever $1:VM
@@ -785,8 +804,8 @@ Sua_Excelência Sua_Excelência PP3CS000
 subsecretário_de_Estado-adjunto subsecretário_de_estado-adjunto NCMS000
 super_pole super_pole NCFS000
 Às_vezes às_vezes RG
-tal_como tal_como RG
-Tal_como tal_como RG
+tal_como tal_como CS
+Tal_como tal_como CS
 Tanto_mais_quanto tanto_mais_quanto RG
 tanto_mais_que tanto_mais_que CS
 Tanto_mais_que tanto_mais_que CS
