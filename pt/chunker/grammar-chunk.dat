@@ -154,8 +154,8 @@ coord ==> CC.
 psubj-s ==> PP1CSN00 | PP2CSN00.  % yo | tu
 psubj-ms ==> PP3MS000 | PP3NS000 | PP2CS00P.	% él | ello | usted
 psubj-fs ==> PP3FS000 | PP2CS00P. %ella | usted
-psubj-mp ==> PP1MP000 | PP2MP000 | PP3MP000 | PP2CP00P.	%nosotros|vosotros|ellos|ustedes
-psubj-fp ==> PP1FP000 | PP2FP000 | PP3FP000 | PP2CP00P.	%nosotras|vosotras|ellas|ustedes
+psubj-mp ==> PP1CPN00 | PP2MP000 | PP3MP000 | PP2CP00P.	%nosotros|vosotros|ellos|ustedes
+psubj-fp ==> PP1CPN00 | PP2FP000 | PP3FP000 | PP2CP00P.	%nosotras|vosotras|ellas|ustedes
 
 psubj ==> psubj-s | psubj-ms | psubj-fs | psubj-mp | psubj-fp. %per agrupar tots els psubj.
 
@@ -330,13 +330,13 @@ dem-fp ==> DD0FP0 | DD0CP0. % estas | tales
 %Determinants  possesius
 
 % mi|tu|su|nuestro|vuestro|suyo|suyos
-pos-ms ==> DP1CSS|DP2CSS|DP3CS0|DP1MSP|DP2MSP|DP3MS0|DP3MP0.
+pos-ms ==> DP1CSS|DP2CSS|DP3CS0|DP1MSP|DP2MSP|DP3MS0|DP3MP0|DP3MSS.
 % mis|tus|sus|nuestros|vuestros
-pos-mp ==> DP1CPS|DP2CPS|DP3CP0|DP1MPP|DP2MPP.
+pos-mp ==> DP1CPS|DP2CPS|DP3CP0|DP1MPP|DP2MPP|DP3MPS.
 % mi|tu|su|nuestra|vuestra|suya|suyas
-pos-fs ==> DP1CSS|DP2CSS|DP3CS0|DP1FSP|DP2FSP|DP3FS0|DP3FP0.
+pos-fs ==> DP1CSS|DP2CSS|DP3CS0|DP1FSP|DP2FSP|DP3FS0|DP3FP0|DP3MSS.
 % mis|tus|sus|nuestras|vuestras
-pos-fp ==> DP1CPS|DP2CPS|DP3CP0|DP1FPP|DP2FPP.
+pos-fp ==> DP1CPS|DP2CPS|DP3CP0|DP1FPP|DP2FPP|DP3MPS.
 
 %Determinants interrogatius%
 int-ms ==> DT0MS0 | DT0CN0. %cuánto | qué
@@ -772,7 +772,7 @@ verb ==>  VMSF3S0<haber>.  	%hubiere%
 %%%%%%%%%%%%%%%%%% tbé els dóna com a vaux el morfo: vai... i que
 %%%%%%%%%%%%%%%%%% vaux no es reescriu tot sol.
 
-vaux==> VAI* | VAM* | VAS*.
+vaux ==> VAI* | VAM* | VAS*.
 
 % aquests participis nomes apareixen en  perífrasis determinades
 parti-aux ==> VAP00SM.  	%habido
@@ -874,8 +874,8 @@ grup-verb ==> +verb | +verb-pass.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%temps compostos
-verb ==> vaux, VMP00SM(debido), +infinitiu. %ha debido cantar
-verb ==> vaux, VMP00SM(debido), SPS00(de), +infinitiu. % ha debido de cantar
+verb ==> vaux, VMP00SM(devido), +infinitiu. %ha debido cantar
+verb ==> vaux, VMP00SM(devido), SPS00(de), +infinitiu. % ha debido de cantar
 verb ==> vaux, VMP00SM(tenido), CS(que),+infinitiu. % ha tenido que cantar
 verb ==> vaux, VMP00SM(habido), SPS00(de), +infinitiu.%ha habido de cantar
 verb ==> vaux, VMP00SM(podido), +infinitiu.%ha podido cantar
