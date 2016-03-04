@@ -132,11 +132,11 @@ a-fp ==> AQ0000|AQ0CN0|AQ0CP0|AQ0FP0|AQ0FPP|AO0FP0
 
 %Adverbis
 neg ==> RN.
-cuantif ==> RG(más).
+cuantif ==> RG(mais).
 cuantif ==> RG(menos).
-cuantif ==> RG(casi).
-cuantif ==> RG(muy).
-cuantif ==> RG(tan).
+cuantif ==> RG(quase).
+cuantif ==> RG(muito).
+cuantif ==> RG(tão).
 %Preposicions
 prep ==> SPS00.
 prep ==> CS(como).
@@ -159,11 +159,11 @@ psubj-fp ==> PP1CPN00 | PP2FP000 | PP3FP000 | PP2CP00P.	%nosotras|vosotras|ellas
 
 psubj ==> psubj-s | psubj-ms | psubj-fs | psubj-mp | psubj-fp. %per agrupar tots els psubj.
 
-sn ==> +psubj-s, DI0MS0(mismo)   | +psubj-s, DI0FS0(misma).
-sn ==> +psubj-ms, DI0MS0(mismo)  | +psubj-fs, DI0FS0(misma).
-sn ==> +psubj-mp, DI0MP0(mismos) | +psubj-fp, DI0FP0(mismas).
-sn ==> +ptonic, DI0MS0(mismo)    | +ptonic, DI0FS0(misma).
-sn ==> +ptonic, DI0MP0(mismos)   | +ptonic, DI0FP0(mismas).
+sn ==> +psubj-s, DI0MS0(mesmo)   | +psubj-s, DI0FS0(mesma).
+sn ==> +psubj-ms, DI0MS0(mesmo)  | +psubj-fs, DI0FS0(mesma).
+sn ==> +psubj-mp, DI0MP0(mesmos) | +psubj-fp, DI0FP0(mesmas).
+sn ==> +ptonic, DI0MS0(mesmo)    | +ptonic, DI0FS0(mesma).
+sn ==> +ptonic, DI0MP0(mesmos)   | +ptonic, DI0FP0(mesmas).
 
 %Pronoms atons
 patons ==> paton-s | paton-p | paton-mp | paton-fp | paton-ms | paton-fs | paton.
@@ -189,7 +189,7 @@ ptonic ==> PP1CSO00(mim).	%mí: cas oblic
 ptonic ==> PP2CSO00(ti).	%ti
 ptonic ==> PP3CNO00(si).	%sí
 
-grup-sp ==> PP1CSO00(conmigo).	%literal per distingir-lo de l'anterior
+grup-sp ==> PP1CSO00(comigo).	%literal per distingir-lo de l'anterior
 grup-sp ==> PP2CSO00(contigo).
 grup-sp ==> PP3CSO00(consigo).
 
@@ -261,7 +261,7 @@ prel-adv ==> PR000000.	%donde, como, cuando
 
 %Pronoms indefinits
 pindef-ms ==> PI0MS000 | PI0CS000.  %alguno | algo/alguien/nada/nadie
-pindef-fs ==> PI0FS000.	%alguna
+pindef-fs ==> PI0FS000.	            %alguna
 pindef-mp ==> PI0MP000 | PI0CP000.	%algunos|demás
 pindef-fp ==> PI0FP000 | PI0CP000.	%algunas|demás
 
@@ -554,9 +554,9 @@ grup-nom-fp ==> +n-fp, pdem-fp.
 %%%%%%%%%%%%%%%%%%
 
 sn ==> espec-ms-E, +nom-fs-E.
-espec-ms-E ==> DA0MS0(el) | DI0MS0(algún) | DI0MS0(un) | DD0MS0(este).
+espec-ms-E ==> DA0MS0(o) | DI0MS0(algúm) | DI0MS0(um) | DD0MS0(este).
 
-nom-fs-E ==> NCFS00*(área) | NCFS00*(alma) | NCFS00*(agua). %% etc.
+nom-fs-E ==> NCFS00*(área) | NCFS00*(alma) | NCFS00*(agua). %% etc. ESTE TAG NO EXISTE EN EL DICC_PT
 %*** caldra afegir la llista sencera de noms... n'hi ha 96...
 
 sn ==> grup-nom.	%pels noms propis...
@@ -579,10 +579,10 @@ sn ==> espec-ms, +grup-nom-ms | espec-mp, +grup-nom-mp
      | espec-fs, +grup-nom-fs | espec-fp, +grup-nom-fp.
 
 sn==> espec, +grup-nom.
-sn ==> RG(muy), +grup-nom-ms. % muy hombre %NOVA
-sn ==> RG(muy), +grup-nom-mp. %NOVA
-sn ==> RG(muy), +grup-nom-fs. %NOVA
-sn ==> RG(muy), +grup-nom-fp. %NOVA
+sn ==> RG(muito), +grup-nom-ms. % muy hombre %NOVA
+sn ==> RG(muito), +grup-nom-mp. %NOVA
+sn ==> RG(muito), +grup-nom-fs. %NOVA
+sn ==> RG(muito), +grup-nom-fp. %NOVA
 
 
 sn ==> pinterrog-s | pinterrog-p.
@@ -624,7 +624,7 @@ sn ==> Fe, +sn, Fe | Fpa, +sn, Fpt.
 sn ==> +numero |  espec-ms, +numero.
 
 % entre 100 y 200
-numero ==> +SPS*(entre), numero, CC(y), numero.
+numero ==> +SPS*(entre), numero, CC(e), numero.
 
 %otras 30 (a2)
 sn ==> espec-mp, +numero | espec-fp, +numero.
@@ -654,7 +654,7 @@ sn ==> indef-ms, j-ms, +pindef-mp | indef-fs, j-fs, +pindef-fp.
 %éste último
 sn ==> pdem-ms, +s-a-ms | pdem-fs, +s-a-fs | pdem-mp, +s-a-mp | pdem-fp, +s-a-fp.
 
-sn ==> +CC(ni), sn, CC(ni), sn.  %%No sé què passa: no funciona!!
+sn ==> +CC(nem), sn, CC(nem), sn.  %%No sé què passa: no funciona!!
 
 %considerar "ella sola"
 %considerar "un amigo suyo": OK
@@ -758,14 +758,14 @@ verb ==> VMI* | VMM* | VMS*.
 verb ==>  VSI* | VSM* | VSS*.
 
 % haber: només pot ser principal la 3 pers sing
-verb ==>  VMIP3S0<haber>. 	%ha
-verb ==>  VMII3S0<haber>.  	%había%
-verb ==>  VMIS3S0<haber>.  	%hubo%
-verb ==>  VMIF3S0<haber>.  	%habrá%
-verb ==>  VMIC3S0<haber>.    	%habría%
-verb ==>  VMSP3S0<haber>.  	%haya%
-verb ==>  VMSI3S0<haber>.   	%hubiera; hubiese%
-verb ==>  VMSF3S0<haber>.  	%hubiere%
+verb ==>  VMIP3S0<haver>. 	%ha
+verb ==>  VMII3S0<haver>.  	%había%
+verb ==>  VMIS3S0<haver>.  	%hubo%
+verb ==>  VMIF3S0<haver>.  	%habrá%
+verb ==>  VMIC3S0<haver>.   %habría%
+verb ==>  VMSP3S0<haver>.  	%haya%
+verb ==>  VMSI3S0<haver>.   %hubiera; hubiese%
+verb ==>  VMSF3S0<haver>.  	%hubiere%
 
 
 % auxiliares %%!!!el problema és que "hay" y "es" de les atributives
@@ -810,21 +810,21 @@ geraux-ser ==> VSG0000 | +VSG0000,PP* | +VSG0000,PP*,PP* | +VSG0000,PP*,PP*,PP*.
 %%%%%Perífrasis verbals%%%%%%%%%
 %%%Es generen totes menys les de "haber+que+inf" que només
 %existeix en 3ps i que declaro jo directament:
-verb ==> VAIC3S0(habría), CS(que), +infinitiu.
-verb ==> VAIF3S0(habrá), CS(que), +infinitiu.
-verb ==> VAII3S0(había), CS(que), +infinitiu.
-verb ==> VAIP3S0(hay), CS(que), +infinitiu.
-verb ==> VAIS3S0(hubo), CS(que), +infinitiu.
-verb ==> VAMP3S0(haya), CS(que), +infinitiu.
-verb ==> VAN0000(haber), CS(que), +infinitiu.
-verb ==> VASF3S0(hubiere), CS(que), +infinitiu.
-verb ==> VASI3S0(hubiera), CS(que), +infinitiu.
-verb ==> VASI3S0(hubiese), CS(que), +infinitiu.
-verb ==> VASP3S0(haya), CS(que), +infinitiu.
-ger ==> VAG0000(habiendo), CS(que), +infinitiu.
-inf ==> VAN0000(haber), CS(que), +infinitiu.
+verb ==> VMIC3S0(havería), CS(que), +infinitiu.
+verb ==> VMIF3S0(haverá), CS(que), +infinitiu.
+verb ==> VMII3S0(havia), CS(que), +infinitiu.
+verb ==> VMIP3S0(há), CS(que), +infinitiu.
+verb ==> VMIS3S0(houve), CS(que), +infinitiu.
+verb ==> VMMP3S0(haja), CS(que), +infinitiu.
+verb ==> VMN0000(haver), CS(que), +infinitiu.
+verb ==> VMSF3S0(houver), CS(que), +infinitiu.
+%verb ==> VMSI3S0(hubiera), CS(que), +infinitiu.
+verb ==> VMSI3S0(houvesse), CS(que), +infinitiu.
+verb ==> VMSP3S0(haja), CS(que), +infinitiu.
+ger ==> VMG0000(havendo), CS(que), +infinitiu.
+inf ==> VMN0000(haver), CS(que), +infinitiu.
 
-grup-sp ==> +SPS00(entre), sn, CC(y), sn.
+grup-sp ==> +SPS00(entre), sn, CC(e), sn.
 parti-flex ==> parti-ms | parti-fs | parti-mp | parti-fp.
 
 gerundi ==> ger | ger-pas | geraux-ser.
@@ -876,14 +876,14 @@ grup-verb ==> +verb | +verb-pass.
 %%temps compostos
 verb ==> vaux, VMP00SM(devido), +infinitiu. %ha debido cantar
 verb ==> vaux, VMP00SM(devido), SPS00(de), +infinitiu. % ha debido de cantar
-verb ==> vaux, VMP00SM(tenido), CS(que),+infinitiu. % ha tenido que cantar
-verb ==> vaux, VMP00SM(habido), SPS00(de), +infinitiu.%ha habido de cantar
+verb ==> vaux, VMP00SM(tido), CS(que),+infinitiu. % ha tenido que cantar
+verb ==> vaux, VMP00SM(havido), SPS00(de), +infinitiu.%ha habido de cantar
 verb ==> vaux, VMP00SM(podido), +infinitiu.%ha podido cantar
 verb ==> vaux, VMP00SM(ido), SPS00(a), +infinitiu.%ha ido a cantar
 verb ==> vaux, VMP00SM(empezado), SPS00(a), +infinitiu.%ha empezado a cantar
-verb ==> vaux, VMP00SM(comenzado), SPS00(a),+infinitiu.%ha comenzado a llover
+verb ==> vaux, VMP00SM(começado), SPS00(a),+infinitiu.%ha comenzado a llover
 verb ==> vaux, VMP00SM(echado), SPS00(a), +infinitiu.%ha echado a perder
-verb ==> vaux, VMP00SM(roto), SPS00(a), +infinitiu.%ha roto a llorar
+verb ==> vaux, VMP00SM(rompido), SPS00(a), +infinitiu.%ha roto a llorar
 verb ==> vaux, VMP00SM(estado), SPS00(a_punto_de), +infinitiu.
 verb ==> vaux, VMP00SM(vuelto), SPS00(a), +infinitiu.
 verb ==> vaux, VMP00SM(acostumbrado), SPS00(a), +infinitiu.
@@ -894,19 +894,19 @@ verb ==> vaux, VMP00SM(tratado), SPS00(de), +infinitiu.
 verb ==> vaux, VMP00SM(llegado), SPS00(a), +infinitiu.
 verb ==> vaux, VMP00SM(acertado), SPS00(a), +infinitiu.
 verb ==> vaux, VMP00SM(alcanzado), SPS00(a), +infinitiu.
-verb ==> vaux, VMP00SM(tardado), SPS00(en), +infinitiu.
+verb ==> vaux, VMP00SM(tardado), SPS00(em), +infinitiu.
 
 verb ==> vaux, VMP00SM(acabado), +gerundi.
 verb ==> vaux, VMP00SM(andado), +gerundi.
-verb ==> vaux, VMP00SM(comenzado), +gerundi.
+verb ==> vaux, VMP00SM(começado), +gerundi.
 verb ==> vaux, VMP00SM(continuado), +gerundi.
-verb ==> vaux, VMP00SM(empezado), +gerundi.
+%verb ==> vaux, VMP00SM(empezado), +gerundi.
 verb ==> vaux, VMP00SM(estado), +gerundi.
 verb ==> vaux, VMP00SM(ido), +gerundi.
-verb ==> vaux, VMP00SM(llevado), +gerundi.
+verb ==> vaux, VMP00SM(levado), +gerundi.
 verb ==> vaux, VMP00SM(seguido), +gerundi.
 verb ==> vaux, VMP00SM(terminado), +gerundi.
-verb ==> vaux, VMP00SM(venido), +gerundi.
+verb ==> vaux, VMP00SM(vindo), +gerundi.
 
 verb ==> vaux, VMP00SM(ido), +parti-*.
 
@@ -939,8 +939,8 @@ inf ==>VMN0000(haver), SPS00(de), +infinitiu.
 inf ==>VMN0000(custar), SPS00(a), +infinitiu.
 
 %afegides el 26-03-03
-inf ==>infaux, VMP00SM(debido), +infinitiu.
-inf ==>infaux, VMP00SM(debido), SPS00(de), +infinitiu.
+inf ==>infaux, VMP00SM(devido), +infinitiu.
+inf ==>infaux, VMP00SM(devido), SPS00(de), +infinitiu.
 inf ==>infaux, VMP00SM(tenido), CS(que), +infinitiu.
 inf ==>infaux, VMP00SM(acabado), SPS00(de), +infinitiu.
 inf ==>infaux, VMP00SM(acostumbrado), SPS00(a), +infinitiu.
@@ -948,7 +948,7 @@ inf ==>infaux, VMP00SM(comenzado), SPS00(a), +infinitiu.
 inf ==>infaux, VMP00SM(echado), SPS00(a), +infinitiu.
 inf ==>infaux, VMP00SM(llegado), SPS00(a), +infinitiu.
 inf ==>infaux, VMP00SM(roto), SPS00(a), +infinitiu.
-inf ==>infaux, VMP00SM(tardado), SPS00(en), +infinitiu.
+inf ==>infaux, VMP00SM(tardado), SPS00(em), +infinitiu.
 inf ==>infaux, VMP00SM(terminado), SPS00(de), +infinitiu.
 inf ==>infaux, VMP00SM(acertado), SPS00(a), +infinitiu.
 inf ==>infaux, VMP00SM(alcanzado), SPS00(a), +infinitiu.
@@ -959,19 +959,18 @@ inf ==>infaux, VMP00SM(vuelto), SPS00(a), +infinitiu.
 inf ==>infaux, VMP00SM(podido), +infinitiu.
 inf ==>infaux, VMP00SM(solido), +infinitiu.
 
-%Perífrasis de gerundi en infinitiu
-inf ==>VAN0000(estar), +gerundi.
+%Perífrasis de gerundi en infinitiu     AGREGAR estar + a + INF
+inf ==>VMN0000(estar), +gerundi.
 inf ==>VMN0000(acabar), +gerundi.
 inf ==>VMN0000(andar), +gerundi.
-inf ==>VMN0000(comenzar), +gerundi.
+inf ==>VMN0000(começar), +gerundi.
 inf ==>VMN0000(continuar), +gerundi.
-inf ==>VMN0000(empezar), +gerundi.
 inf ==>VMN0000(ir), +gerundi.
-inf ==>VMN0000(llevar), +gerundi.
+inf ==>VMN0000(levar), +gerundi.%		DUDOSO
 inf ==>VMN0000(terminar), +gerundi.
 inf ==>VMN0000(seguir),+gerundi.
-inf ==>VMN0000(venir), +gerundi.
-inf ==> infaux, VMP00SM(estado), +gerundi.
+inf ==>VMN0000(vir), +gerundi.
+inf ==> infaux, VMP00SM(estado), +gerundi.%	AL PARECER NO SE USAN LOS COMPUESTOS
 inf ==> infaux, VMP00SM(acabado), +gerundi.
 inf ==> infaux, VMP00SM(andado), +gerundi.
 inf ==> infaux, VMP00SM(comenzado), +gerundi.
@@ -988,42 +987,41 @@ inf ==>VMN0000(ir), +parti-*.
 inf ==> infaux, VMP00SM(ido), +parti-*.
 
 %%perífrasis d'infinitiu en gerundi
-ger ==>VMG0000(debiendo), +infinitiu.
-ger ==>VMG0000(debiendo), SPS00(de), +infinitiu.
-ger ==>VMG0000(teniendo), CS(que), +infinitiu.
-ger ==>VMG0000(pudiendo), +infinitiu.
-ger ==>VMG0000(yendo), SPS00(a), +infinitiu.
-ger ==>VMG0000(empezando), SPS00(a), +infinitiu.
-ger ==>VMG0000(comenzando), SPS00(a), +infinitiu.
-ger ==>VMG0000(echando), SPS00(a), +infinitiu.
-ger ==>VMG0000(rompiendo), SPS00(a), +infinitiu.
-ger ==>VMG0000(volviendo), SPS00(a), +infinitiu.
-ger ==>VMG0000(acostumbrando),SPS00(a), +infinitiu.
+ger ==>VMG0000(indo), +infinitiu.
+ger ==>VMG0000(devendo), +infinitiu.
+ger ==>VMG0000(devendo), SPS00(de), +infinitiu.
+ger ==>VMG0000(tendo), CS(que), +infinitiu.
+ger ==>VMG0000(podendo), +infinitiu.
+%%%%ger ==>VMG0000(empezando), SPS00(a), +infinitiu.
+ger ==>VMG0000(começando), SPS00(a), +infinitiu.
+%%%%ger ==>VMG0000(echando), SPS00(a), +infinitiu.
+%%%%ger ==>VMG0000(rompendo), SPS00(a), +infinitiu.
+ger ==>VMG0000(voltando), SPS00(a), +infinitiu.
+ger ==>VMG0000(acostumando),SPS00(a), +infinitiu.
 ger ==>VMG0000(acabando), SPS00(de), +infinitiu.
 ger ==>VMG0000(terminando), SPS00(de), +infinitiu.
-ger ==>VMG0000(dejando), SPS00(de), +infinitiu.
-ger ==>VMG0000(viniendo), SPS00(a), +infinitiu.
-ger ==>VMG0000(llegando), SPS00(a), +infinitiu.
-ger ==>VMG0000(acertando), SPS00(a), +infinitiu.
-ger ==>VMG0000(alcanzando), SPS00(a), +infinitiu.
-ger ==>VMG0000(tardando), SPS00(en), +infinitiu.
-ger ==>VAG0000(habiendo), SPS00(de), +infinitiu.
+ger ==>VMG0000(deixando), SPS00(de), +infinitiu.
+ger ==>VMG0000(vindo), SPS00(a), +infinitiu.
+ger ==>VMG0000(chagando), SPS00(a), +infinitiu.
+%%%%ger ==>VMG0000(acertando), SPS00(a), +infinitiu.
+%%%%ger ==>VMG0000(alcançando), SPS00(a), +infinitiu.
+ger ==>VMG0000(tardando), SPS00(em), +infinitiu.
+ger ==>VMG0000(demorando), SPS00(em), +infinitiu.
+%%%%ger ==>VMG0000(haviendo), SPS00(de), +infinitiu.
 
 %Perífrasis de gerundi en gerundi : és possible???
 ger ==> VMG0000(acabando), +gerundi.
 ger ==> VMG0000(andando), +gerundi.
-ger ==> VMG0000(comenzando), +gerundi.
+ger ==> VMG0000(começando), +gerundi.
 ger ==> VMG0000(continuando), +gerundi.
-ger ==> VMG0000(empezando), +gerundi.
 ger ==> VMG0000(estando), +gerundi.
-ger ==> VMG0000(yendo), +gerundi.
-ger ==> VMG0000(llevando), +gerundi.
-ger ==> VMG0000(siguiendo), +gerundi.
-ger ==> VMG0000(terminando), +gerundi.
-ger ==> VMG0000(viniendo), +gerundi.
+ger ==> VMG0000(indo), +gerundi.
+%%%%ger ==> VMG0000(levando), +gerundi.
+ger ==> VMG0000(seguindo), +gerundi.
+ger ==> VMG0000(vido), +gerundi.
 
 %Perífrasis de participi en gerundi
-ger ==> VMG0000(yendo), +parti-*.
+ger ==> VMG0000(indo), +parti-*.
 
 % perifrasis verbals indicatives i subjuntives
 verb ==> VMI*<tentar>, +infinitiu | VMS*<tentar>, +infinitiu.
@@ -1055,19 +1053,19 @@ verb ==> VMI*<custar>, SPS00(a), +infinitiu | VMS*<custar>, SPS00(a), +infinitiu
 
 verb ==> VMI*<acabar>, +gerundi | VMS*<acabar>, +gerundi.
 verb ==> VMI*<andar>, +gerundi | VMS*<andar>, +gerundi.
-verb ==> VMI*<comenzar>, +gerundi | VMS*<comenzar>, +gerundi.
-verb ==> VMI*<empezar>, +gerundi | VMS*<empezar>, +gerundi.
+verb ==> VMI*<começar>, +gerundi | VMS*<comenzar>, +gerundi.
+%verb ==> VMI*<empezar>, +gerundi | VMS*<empezar>, +gerundi.
 verb ==> VMI*<continuar>, +gerundi | VMS*<continuar>, +gerundi.
-verb ==> VAI*<estar>, +gerundi | VAS*<estar>, +gerundi.
+verb ==> VMI*<estar>, +gerundi | VMS*<estar>, +gerundi.
 verb ==> VMI*<ir>, +gerundi | VMS*<ir>, +gerundi.
-verb ==> VMI*<llevar>, +gerundi | VMS*<llevar>, +gerundi.
+%%%%no se usa en PT%%%%%%verb ==> VMI*<levar>, +gerundi | VMS*<llevar>, +gerundi.
 verb ==> VMI*<seguir>, +gerundi | VMS*<seguir>, +gerundi.
 verb ==> VMI*<terminar>, +gerundi | VMS*<terminar>, +gerundi.
-verb ==> VMI*<venir>, +gerundi | VMS*<venir>, +gerundi.
+verb ==> VMI*<vir>, +gerundi | VMS*<vir>, +gerundi.
 verb ==> VMI*<ir>, +parti-* | VMS*<ir>, +parti-*.
 
-verb ==> VAI*<haver>, SPS00(de), +infinitiu | VAS*<haver>, SPS00(de), +infinitiu
-       | VAC*<haver>, SPS00(de), +infinitiu.
+verb ==> VMI*<haver>, SPS00(de), +infinitiu | VMS*<haver>, SPS00(de), +infinitiu
+       | VMC*<haver>, SPS00(de), +infinitiu.
 
 
 %%%%%%%%
@@ -1079,46 +1077,47 @@ sadv ==> RG.
 
 
 sadv ==> cuantif, +sadv.
-sadv ==> RG(muy), +RG(poco). %NOVA
+sadv ==> RG(muito), +RG(pouco). %NOVA
 
 %adverbis 'transitius(+/-)'	%13-05-02
-sadv ==> +RG(cerca), SPS00(de), sn.	%cerca de 10 personas
-sadv ==> +RG(lejos), SPS00(de), sn.
-sadv ==> +RG(arriba), SPS00(de), sn.
-sadv ==> +RG(abajo), SPS00(de), sn.
-sadv ==> +RG(después), SPS00(de), sn.
+sadv ==> +RG(perto), SPS00(de), sn.	%cerca de 10 personas
+sadv ==> +RG(longe), SPS00(de), sn.
+sadv ==> +RG(acima), SPS00(de), sn.
+sadv ==> +RG(cima), SPS00(de), sn.
+sadv ==> +RG(abaixo), SPS00(de), sn.
+sadv ==> +RG(depois), SPS00(de), sn.
 sadv ==> +RG(antes), SPS00(de), sn.
-sadv ==> +RG(fuera), SPS00(de), sn.
+sadv ==> +RG(fora), SPS00(de), sn.
 sadv ==> +RG(dentro), SPS00(de), sn.
-sadv ==> +RG(delante), SPS00(de), sn.
-sadv ==> +RG(detrás), SPS00(de), sn.
-sadv ==> +RG(encima), SPS00(de), sn.
-sadv ==> +RG(debajo), SPS00(de), sn.
-sadv ==> +RG(más), SPS00(de), sn.
+sadv ==> +RG(diante), SPS00(de), sn. %AGREGAR a frente de
+sadv ==> +RG(atrás), SPS00(de), sn.
+sadv ==> +RG(encima), SPS00(de), sn. %AGREGAR em cima de
+sadv ==> +RG(debaixo), SPS00(de), sn.
+sadv ==> +RG(mais), SPS00(de), sn.
 sadv ==> +RG(menos), SPS00(de), sn.  %EliC menos de residuos
-sadv ==> +RG(enfrente), SPS00(de), sn.
+sadv ==> +RG(defronte), SPS00(de), sn. %AGREGAR em frente de
 sadv ==> +RG(frente), SPS00(a), sn.
 sadv ==> +RG(junto), SPS00(a), sn.
-sadv ==> SPCMS(al), +RG(menos), sn. %de al menos
+sadv ==> SPCMS(ao), +RG(menos), sn. %de al menos    CHEQUEAR TAG
 
-sadv ==> RG(cerca), SPS00(de), +sadv.	%cerca de 10 personas
-sadv ==> RG(lejos), SPS00(de), +sadv.
-sadv ==> RG(arriba), SPS00(de), +sadv.
-sadv ==> RG(abajo), SPS00(de), +sadv.
-sadv ==> RG(después), SPS00(de), +sadv.
+sadv ==> RG(perto), SPS00(de), +sadv.	%cerca de 10 personas
+sadv ==> RG(longe), SPS00(de), +sadv.
+sadv ==> RG(acima), SPS00(de), +sadv.
+sadv ==> RG(cima), SPS00(de), +sadv.
+sadv ==> RG(abaixo), SPS00(de), +sadv.
+sadv ==> RG(depois), SPS00(de), +sadv.
 sadv ==> RG(antes), SPS00(de), +sadv.
-sadv ==> RG(fuera), SPS00(de), +sadv.
+sadv ==> RG(fora), SPS00(de), +sadv.
 sadv ==> RG(dentro), SPS00(de), +sadv.
-sadv ==> RG(delante), SPS00(de), +sadv.
-sadv ==> RG(detrás), SPS00(de), +sadv.
+sadv ==> RG(diante), SPS00(de), +sadv.
+sadv ==> RG(atrás), SPS00(de), +sadv.
 sadv ==> RG(encima), SPS00(de), +sadv.
-sadv ==> RG(debajo), SPS00(de), +sadv.
-sadv ==> RG(más), SPS00(de), +sadv.
+sadv ==> RG(debaixo), SPS00(de), +sadv.
+sadv ==> RG(miss), SPS00(de), +sadv.
 sadv ==> RG(menos), SPS00(de), +sadv.
-sadv ==> RG(enfrente), SPS00(de), +sadv.
+sadv ==> RG(defronte), SPS00(de), +sadv.
 sadv ==> RG(frente), SPS00(a), +sadv.
 sadv ==> RG(junto), SPS00(a), +sadv.
-
 
 
 
