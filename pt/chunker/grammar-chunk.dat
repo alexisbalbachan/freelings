@@ -260,7 +260,7 @@ prel-fp ==> PR0FP000(quantas).	%cuantas
 prel-adv ==> PR000000.	%donde, como, cuando
 
 %Pronoms indefinits
-pindef-ms ==> PI0MS000 | PI0CS000.  %alguno | algo/alguien/nada/nadie
+pindef-ms ==> PI0MS000 | PI0CS000 | PI0CN000.  %alguno | algo/alguien/nada/nadie
 pindef-fs ==> PI0FS000.	            %alguna
 pindef-mp ==> PI0MP000 | PI0CP000.	%algunos|demás
 pindef-fp ==> PI0FP000 | PI0CP000.	%algunas|demás
@@ -334,9 +334,9 @@ pos-ms ==> DP1CSS|DP2CSS|DP3CS0|DP1MSP|DP2MSP|DP3MS0|DP3MP0|DP3MSS.
 % mis|tus|sus|nuestros|vuestros
 pos-mp ==> DP1CPS|DP2CPS|DP3CP0|DP1MPP|DP2MPP|DP3MPS.
 % mi|tu|su|nuestra|vuestra|suya|suyas
-pos-fs ==> DP1CSS|DP2CSS|DP3CS0|DP1FSP|DP2FSP|DP3FS0|DP3FP0|DP3MSS.
+pos-fs ==> DP1CSS|DP2CSS|DP3CS0|DP1FSP|DP2FSP|DP3FS0|DP3FP0|DP3FSS.
 % mis|tus|sus|nuestras|vuestras
-pos-fp ==> DP1CPS|DP2CPS|DP3CP0|DP1FPP|DP2FPP|DP3MPS.
+pos-fp ==> DP1CPS|DP2CPS|DP3CP0|DP1FPP|DP2FPP|DP3FPS.
 
 %Determinants interrogatius%
 int-ms ==> DT0MS0 | DT0CN0. %cuánto | qué
