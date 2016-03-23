@@ -260,7 +260,7 @@ prel-fp ==> PR0FP000(quantas).	%cuantas
 prel-adv ==> PR000000.	%donde, como, cuando
 
 %Pronoms indefinits
-pindef-ms ==> PI0MS000 | PI0CS000 | PI0CN000.  %alguno | algo/alguien/nada/nadie
+pindef-ms ==> PI0MS000 | PI0CS000 | PI0CN000 | PI0NN000.  %alguno | algo/alguien/nada/nadie
 pindef-fs ==> PI0FS000.	            %alguna
 pindef-mp ==> PI0MP000 | PI0CP000.	%algunos|demás
 pindef-fp ==> PI0FP000 | PI0CP000.	%algunas|demás
