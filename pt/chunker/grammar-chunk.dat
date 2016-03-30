@@ -329,14 +329,14 @@ dem-fp ==> DD0FP0 | DD0CP0. % estas | tales
 
 %Determinants  possesius
 
-% mi|tu|su|nuestro|vuestro|suyo|suyos
-pos-ms ==> DP1CSS|DP2CSS|DP3CS0|DP1MSP|DP2MSP|DP3MS0|DP3MP0|DP3MSS.
+% meu|teu|seu|nuestro|vuestro|suyo|suyos
+pos-ms ==> DP1MSS|DP2MSS|DP3MSS|DP1MSP|DP2MSP|DP3MS0|DP3MP0|DP3MSS.
 % mis|tus|sus|nuestros|vuestros
-pos-mp ==> DP1CPS|DP2CPS|DP3CP0|DP1MPP|DP2MPP|DP3MPS.
+pos-mp ==> DP1MPS|DP2MPS|DP3MP0|DP1MPP|DP2MPP|DP3MPS.
 % mi|tu|su|nuestra|vuestra|suya|suyas
-pos-fs ==> DP1CSS|DP2CSS|DP3CS0|DP1FSP|DP2FSP|DP3FS0|DP3FP0|DP3FSS|DP3FSP.
+pos-fs ==> DP1FSS|DP2FSS|DP3FS0|DP1FSP|DP2FSP|DP3FS0|DP3FP0|DP3FSS|DP3FSP.
 % mis|tus|sus|nuestras|vuestras
-pos-fp ==> DP1CPS|DP2CPS|DP3CP0|DP1FPP|DP2FPP|DP3FPS.
+pos-fp ==> DP1FPS|DP2FPS|DP3CP0|DP1FPP|DP2FPP|DP3FPS.
 
 %Determinants interrogatius%
 int-ms ==> DT0MS0 | DT0CN0. %cuánto | qué
