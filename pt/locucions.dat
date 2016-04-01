@@ -1,3 +1,13 @@
+futebol_americano futebol_americano $1:NC
+<dizer>_respeito dizer_respeito $1:VM
+<tomar>_cuidado tomar_cuidado $1:VM
+<acabar>_de acabar_de $1:VM
+<começar>_a começar_a $1:VM
+<jogador>_de_futebol jogador_de_futebol $1:NC
+de_praxe de_praxe RG
+<casa>_<noturna> casa_noturna $1:NC
+<forma>_<física> forma_física $1:NC
+<pasar>_por pasar_por $1:VM
 tomara_que tomara_que RG
 depois_de_que depois_de_que CS
 Depois_de_que depois_de_que CS
