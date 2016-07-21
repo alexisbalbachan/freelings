@@ -788,8 +788,11 @@ forma-ger ==> VMG0000 | VAG0000.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%% ESTO LO CORREGI YO: ANTES EN LUGAR DE subord-ger ESTABA ger %%%%%%%%%%%%%%%%%%
 
-ger ==>  forma-ger |  +forma-ger,PP* | +forma-ger,PP*,PP* | +forma-ger,PP*,PP*,PP*.
-subord-ger ==> VMG* |  +VMG*,patons | +VMG*,patons,patons | +VMG*,patons,patons,patons. 
+%ger ==>  forma-ger |  +forma-ger,PP* | +forma-ger,PP*,PP* | +forma-ger,PP*,PP*,PP*.
+%subord-ger ==> VMG* |  +VMG*,patons | +VMG*,patons,patons | +VMG*,patons,patons,patons.
+forma-ger ==> VMG* |  +VMG*,patons | +VMG*,patons,patons | +VMG*,patons,patons,patons.
+subord-ger ==> +forma-ger,s-adj | +forma-ger,patons | +forma-ger,patons,patons | +forma-ger,patons,s-adj.
+subord-ger ==> +VMG*,s-adj | +VMG*,neg,s-adj | +VMG*,patons | +VMG*,patons,patons | +VMG*,patons,s-adj | +VMG*,patons,patons,neg,s-adj | +VMG*,patons,neg,s-adj. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
