@@ -47,6 +47,12 @@ w-fs ==> NP*.
 w-mp ==> NP*.
 w-fp ==> NP*.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%un mes atrás / dos semanas que viene, etc.
+sadv ==> +sn-tmp, RG(antes) | +sn-tmp, RG(depois) | +sn-tmp, RG(atrás).
+sadv ==> DA0MS0, +sn-tmp, PR*(que), VMIP3S0(vem) | DA0FS0, +sn-tmp, PR*(que), VMIP3S0(vem).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %hace un mes / dos semanas, etc.
 sadv ==> +v-hacer-3p, sn-tmp.
 v-hacer-3p ==> VMIP3S0<fazer> | VMII3S0<fazer> | VMSP3S0<fazer>
