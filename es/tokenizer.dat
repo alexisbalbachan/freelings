@@ -2,7 +2,7 @@
 ## macros to be used in RegExps rules
 <Macros>
 ALPHA	   [[:alpha:]]
-ALPHANUM   [[:alnum:]º°]
+ALPHANUM   [[:alnum:]º°%]
 SYMNUM     [\.:,_/\\=\*\+\-º°&$€£¢¥#%]
 OTHERS     .
 </Macros>
