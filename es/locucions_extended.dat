@@ -1,3 +1,5 @@
+visto_bueno visto_bueno NCMS000 I
+en_detrimento_de en_detrimento_de SPS00 I
 opinión_pública opinión_pública $1:NC I
 <materia>_<prima> materia_prima $1:NC I
 <paraíso>_<fiscal> paraíso_fiscal $1:NC I
