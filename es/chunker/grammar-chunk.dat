@@ -97,7 +97,9 @@ data ==> espec-ms, +W.		%el martes 13-05-02
 data ==> data, +coord, data.	%(d2)
 
 % xifres
+%%%%%%%%%%%%ALEXIS REEMPLAZO numero por a-fs%%%%%%%%%%%%%%%%%%%%%%%%
 numero ==> Z | Zd.
+sn ==> +sn, numero. %ESTA REGLA FUE INVENTADA
 numero-part ==> Zd.
 numero-nopart ==> Z | +Zd, SPS00(de).
 
