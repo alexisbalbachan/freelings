@@ -1,4 +1,5 @@
-<abstenciÃ³n>_laboral abstencÃn_laboral $1:NC I
+<evento>_<dañoso> evento_dañoso $1:NC I
+<abstención>_laboral abstención_laboral $1:NC I
 no_<tener>_dudas no_tener_dudas $2:VM I
 <quedar>_afuera quedar_afuera $1:VM I
 <quedar>_fuera quedar_fuera $1:VM I
